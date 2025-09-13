@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/projects")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*") // Allow frontend to connect
+@CrossOrigin(origins = "*", allowCredentials = "false")
 public class ProjectController {
 
     private final ProjectService projectService;

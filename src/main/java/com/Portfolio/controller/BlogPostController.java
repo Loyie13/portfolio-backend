@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/blog")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*", allowCredentials = "false")
 public class BlogPostController {
 
     private final BlogPostService blogPostService;

@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/skills")
 @RequiredArgsConstructor
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "*", allowCredentials = "false")
 public class SkillController {
 
     private final SkillService skillService;
