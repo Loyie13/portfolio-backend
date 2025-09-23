@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api/contact")
+@RequestMapping("/contact")
 @CrossOrigin(origins = "*", allowCredentials = "false")// Your React app URL
 public class ContactController {
 
